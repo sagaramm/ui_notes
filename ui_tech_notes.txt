@@ -1,0 +1,715 @@
+UI DEVELOPMENT:
+-------------------------
+UI development is a process of developing the front end of any websites using various UI technologies like HTML, CSS, javascript, JQuery, Bootstap, Angular JS for better interaction with Humans and machines.
+INTRODUCTION TO UI:
+------------------------------
+--> Two human beings can interact with each other by using the concept called language and body language.
+--> The same way a human being can interact with the machine by using the concept called UI.
+--> There are different names for UI such as GUI(Graphical user interface), UI(User Interface), UX(User experience), front end.
+
+WAY OF COMMUNICATION:
+-------------------------------------
+--> The ways of communcication happens between the user and the machine as follows:
+
+1. Messages
+2.  Images
+3. Graphical Designs
+4. Forms
+5. Buttons
+6. Other UI components
+
+Web application Architecture:
+-------------------------------------
+
+client		server 		database
+
+--> Any web application architecture contains three parts such as
+client, server and database.
+--> Let's understand how the facebook application works as per the above architecture.
+--> when an user opens the facebook application in his browser
+and fills in the username and password, and click on log in button.
+--> The client's browser collects the form data and sends a HTTP request to the facebook's server.
+--> The facebook server performs some processing and checks 
+the user verfication with facebook database.
+--> The facebook database executes few SQL queries and confirms the user verification with the facebook server.
+--> The facebook server collects the complete user data and prepares the complete users facebook page and sends as HTTP response back to client's browser.
+--> Now the user can able to see notifications, friend requests, chat information.
+
+Technologies used for the Web:
+--------------------------------------
+Client: 			Server Side:
+HTML, CSS, JS,		PHP, .NET, JAVA, SAP, 
+JQUERY, AJAX, 		SALESFORCE
+BOOTSTRAP, ANGULAR JS etc
+
+DATABASE:
+MYSQL, SQUL server, DB2, MONGO DB
+
+Understanding Web Development:
+---------------------------------------------
+--> SBI	--> TCS
+      (client)           PA
+	          PM, BA, SSE	------->	DEVELOPER TEAM
+				CLENT     SERVER  DB
+				UI Desi, UI Dev
+--> The client organisation(SBI) wants to create a website for online banking, for this they approaches a software company called TCS.
+--> The software organisation forms a project management team which contains project architect, project manager, business analyst, few senior software engineers.
+--> The client organisation sends the project management team to the client organisation for the complete understanding of the requirement.
+--> The project management team analyses the complete requirement of the client organisation and prepares a document called requirement document.
+--> The software organisation finalizes the requirement document with client organisation.
+--> Once the requirement document is ready then the project architect decides the technologies to be used for the entire project development.
+--> The software organisation forms the  recruits, development teams for the project.
+--> The development contains three types of developers such as:
+       Client side developers,
+        DataBase developers,
+        Server side developers.
+--> In the client side development there are two types of software engineers such as UI designer, UI developer.
+--> The UI designer gets the requirement document and understands the complete requirement and proposes two to three designs with his photoshop skills.
+--> Once the design is finalized with the client organisation  then he prepares a document called design document.
+--> Once a design document is ready, he shares the design document with UI developer.
+--> The UI developer starts working on the complete front end of the project.
+
+Environments for any project development:
+--------------------------------------------------------
+--> For any software development there are four types of environments as follows:
+1. Local Environment:
+--> The company provided laptop or desktop is called as local environment.
+--> Before starting any project development each developer has to install the required softwares in the company laptop is called as development environment setup.
+--> Once the setup is ready the developer starts working on the project.
+--> Once the development is ready then the developers integrate the code in new environment called Dev environment.
+
+Development Environment:
+------------------------------------
+--> This environment is accesible for all the developers of the project.
+--> Once the integration is ready then the developers will perform one round of testing is called as UNIT testing.
+--> Once the testing is finalized they push the code to UAT environment.
+
+UAT Environment:
+---------------------------
+--> The UAT stands for User Acceptance Test.
+--> This environment is available for all the testers of the project.
+--> The tester will perform the complete testing of the project with some testing techniques such as integration testing, smoke testing.
+--> Once the testing is ready then the project code is ready to move to production environment.
+
+PROD Environment or Production environment:
+------------------------------------------------------------
+
+--> This environment is also called as light environment.
+--> This is accessible from all the customers of the client organisation.
+--> This is the last stage of any software development.
+
+Types of software companies:
+---------------------------------------
+
+Usage of live server:
+---------------------------
+--> For UI development we have to write the html files and we execute them on the browser.
+--> For each html change we have to refresh the browser every time, inorder to refresh the browser automatically we have to install live server.
+--> The live server is a simple javascript package hosted on 'npm'(node package manager).
+--> The live server automatically detects the html file changes and immedietly reload the browser to effect the changes.
+--> For this live server we have install nodeJS.
+
+Installation of NodeJS:
+------------------------------
+--> Go to "google" and type "node JS".
+--> goto official website "https://nodejs.org/en/".
+--> click on "8.11.2" button.
+--> It will download ".msi" file.
+--> Double click on it and proceed with default installation.
+
+Node JS installation verification:
+------------------------------------------
+--> Go to "command prompt" 
+--> Type "node -v" -> to get the version of node js.
+--> Once you get the version it is installed successfully.
+--> type "npm -v" -> to get the version of npm.
+--> Once you get the version it is installed successfully.
+
+Installation of live-server:
+--------------------------------
+--> Go to "command prompt" 
+--> type "npm install -g live-server"(it requires internet connection)
+--> Once installed then check the version as follows
+--> in command prompt type "live-server -v".
+--> Once you get the version it is installed successfully.
+
+How to start live-sever:
+-----------------------------
+--> goto "command prompt" 
+--> goto projects folder in command prompt
+--> Type "live-server --port=9000" and click on enter
+
+Installation of webstorm:
+---------------------------------
+--> goto "google" -> type "naveen saggam".
+--> goto "https://github.com/thenaveensaggam".
+--> click on "HTML5_Development" link.
+--> goto the bottom of the webpage.
+--> click on google drive link.
+--> click on download button on google drive.
+--. once downloaded -> install it -> crack it.
+
+How to download source code:
+---------------------------------------
+--> go to "google" and type "naveen saggam".
+--> go to https://github.com/thenaveensaggam.
+--> click on "HTML5_Development" link.
+--> click on "Clone or Download" button.
+--> it will download a .zip file.
+--> extract the zip file and create a folder structure.
+--> load to webstorm.
+
+Folder structure:
+----------------------
+--> D:/
+            -->
+                    workspace
+                                    ---->
+                                                  HTML
+                                                          --->  H-Starter-T
+                                                                   H-C-T
+HTML:
+--------
+--> HTML stands for Hyper Text Markup Language.
+--> The HTML is one of the core language to develop any website among javascript and CSS.
+--> The HTML is used to structure the website.
+--> By using HTML we can display the only content like headings, paragraphs, images on the browser.
+--> By default no styles will be applied for HTML content.
+--> Each HTML document contains with an extension ".html".
+--> Each HTML document document is full of "HTML Tags".
+--> Once the HTML document is ready we can execute that document on the browser.
+--> Browser displays the textual content without HTML tags. It means the HTML tags will not be displayed on the browser instead only content will be displayed on the browser.
+
+Structure of HTML document:
+----------------------------------------
+_________________________________________________________
+			<html>
+_________________________________________________________
+			<head>
+_________________________________________________________
+			<body>
+
+
+
+
+_________________________________________________________
+
+--> Each html document contains two parts.
+       1. head section and 2. body section
+--> Each HTML document is represented with the following tags
+       ex.
+                  <html> --> start tag
+	----------
+	------
+                  </html> --> end tag
+Head Section:
+----------------
+--> The head section of HTML document is represented with the following tag
+ex:     <head> --> start tag
+                   -----
+                  ------
+           </head> --> end tag
+--> The head section of HTML document contains the websites title information, some meta information and few CSS, javaScript configuration.
+
+Body Section:
+------------------
+--> The body section of HTML document is represented with the following tag.
+ex:   <body> --> start tag
+                    -------
+                     -  -----
+          </body> --> end tag
+--> this is the very important section in the entire html document.
+--> The complete visible area of any website is comes from the body section of the HTML document.
+
+HTML First Application:
+------------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Welcome </title>
+  </head>
+  <body>
+    <h1>Welcome to HTML</h1>
+  </body>
+</html>
+--> The line number 1 indicates the document type HTML, this line instructs the browser that all the following tags are from HTML language and display them on the browser in HTML5 type.
+
+--> line 2 to line 9 indicates the complete HTML document where line 2 indicates the start type of HTML and line 9 indicates the end tag of HTML.
+
+--> line 3 to line 5 indicates the head section of HTML document and line 4 indicates the title of the web page, this title information will display the tab of the webpage.
+
+--> line 6 to line 8 indicates the body section of HTML document.
+
+--> line 7 indicates the main heading of the HTML content.
+
+Rules for writing HTML document:
+-----------------------------------------------
+
+--> All the HTML tags will be return in lower case.
+
+--> Each content to be displayed on the web page should be between HTML tags.
+  Syntax:
+	 <tagname> your content </tagname>
+
+--> Each HTML tag may or may not closed tag.
+
+--> The tags which don't have closed tag are as follows:
+          <br> --> line break
+           <hr> --> horizontal line
+           <img> --> to display an image
+           <input> --> for an input field
+
+--> Each HTML tag is also called as HTML element.
+
+--> Each HTML tag contains few HTML attributes.
+
+--> The HTML attributes adds an additional information for HTML tags.
+     ex:html tag           Attribute name        Attribute value
+	<img src="image1.jpg" width="400" height="200">
+
+--> Each HTML attribute contains a key value pair and we must write the HTML attributes for start tag only.
+
+HTML header tags:
+------------------------
+
+--> We can display the headings on the web page using HTMl header tags.
+
+--> In HTML there are six types of header tags such as 
+  ex: 
+	<h1> --> Main heading
+	<h2> --> Sub heading
+	<h3>
+	<h4>
+	<h5>
+	<h6> --> least heading
+
+HTML paragraph tag:
+----------------------------
+--> We can display paragraphs on the web page using <p> tag.
+    ex: 
+              <p> This is my first paragraph </p>
+
+HTML div tag:
+-------------------
+--> The HTML <div> is used to divide the webpage into several divisions.
+--> Each HTML <div> acts like a container which contains any number of HTML tags/elements.
+--> This is just a structure element/tag used to apply some styles for the full division.
+--> Just by adding the div tag no styles will be applied, we need to apply the styles by using CSS.
+
+Span tag:
+------------
+--> The span tag is used to apply some styles for a specific word or a specific character or some group of words.
+--> Just by adding the <span> no styles will be applied. We can apply the styles using CSS style attribute.
+
+HTML text formatting:
+-----------------------------
+--> The following tags are used to apply various text formatting for the HTML content.
+--> 
+
+HTML <img>:
+
+   We can display images on the web page using HTML <img>.
+--> The <img> contains the following attributes:
+       1. src:
+--> This attribute is used to provide the address of the image.
+--> We can specify the address by using absolute path or relative path.
+--> The absolute path indicates the address from root folder.
+                 ex: <img src="c:\workspace\images\image1.jpg>
+--> The problem with absolute path is, if we moved the code to some other environments like DEV or UID, then in that environment we don't have C drive and the image will not be loaded.
+--> To resolve this problem we have to use relative path.
+--> In relative path we create a seperate holder and keep all the images in the folder and provide the address of images from the current folder.
+
+     project 		project
+           |
+           |__ .html	.html
+           |__ a.jpg               img
+      src="a.jpg"                       a.jpg
+		src="img/a.jpg"         src="../a.jpg       
+
+
+
+
+src="../img/a.jpg"		src="../../img/a.jpg"
+
+2.Width, Height:
+------------------
+--> These attributes are used to specify our own or custom width and height for the image.
+
+alt attribute:
+------------------
+alt --> this is an alternate text for image.
+--> This text will display when the image is not loaded for some reason.
+--> Once the image is loaded successfully then the alternate text will hidden.
+
+align:
+-------
+--> This is used to align the image to left side or right side.
+
+		table
+      <th>			                        
+    SNO                                    NAME                      ADDRESS|--> <thead>
+      |
+<tr>->      1		john                                        us           |
+         2	                     williams                                 uk          | - <tbody>
+          3                              krishna                                   india     |
+
+--> We can display table on the webpage using <table>.
+--> In the html table it contains two parts one is head section and second one is body section.
+   1. head 2. body
+--> The head section of the table is represented with the <thead>.
+--> The body section of the table is represented  with <tbody>.
+--> Each row of a table for head section and body section is represented with a tag <tr> table row..
+--> In the table head section each cell is represented with <th> and each cell in the body section is represented with <td>.
+ 
+note:
+------
+--> For the HtmL table no borders will be displayed by default, we can display the borders using CSS.
+--> In HTML table <thead> and <tbody> are optional.
+
+------
+table
+
+---> Each html table contains two special attributes such as
+1. colspan and 2. rowspan
+colspan:
+----------
+--> It is used to combine two or more columns of a html table.
+--> We normally use colspan for <th>.
+2. rowspan:
+----------------
+--> The rowspan attribute is used to combine two or more rows of a html table.
+--> We normally use rowspan for <td>.
+
+HTML links:
+---------------
+--> In HTML we can convert the normal text to clickable link or hyper text or hyper link by using a html tag called '<a>' tag.
+--> Each '<a>' tag contains a mandatory attribute called 'href', this specifies the address of the link.
+ex:
+	<a href="www.google.com">Google</a> 
+--> Normally each hyperlink will be loaded into same page, if want to load the link in the new tab we have to use an extra attribute called 'target'.
+ex: 
+	<a href="www.facebook.com" target="_blank">facebook</a>
+--> We can even convert an image as a clickable link or hyper link and once we click on the image then the control will jump to the specified address.
+ex:  <a href="www.facebook.com"  target="_blank"><img src="facebook.jpg" width="300" height="150"></a>
+
+Note:
+-------
+--> Here 'src' indicates the address of the image and 
+                  'href' indicates the address to where the control has to                    jump to.
+
+HTML entities:
+-------------------	 
+--> The HTMl entities are used to display few reserved characters and some special symbols on the web page.
+syntax:	&entity_name;  &#entity_name;
+--> <	&lt;
+--> >	&gt;
+--> c             &copy;
+--> R ku round	&reg;
+--> rupee 		&#8377;
+--> $		&#36;
+
+HTML IFrames:
+-------------------
+--> HTML IFrame are used to display some other webpage in our own webpage.
+--> For this we use the tag called <iframe>
+--> Syntax:
+	<iframe src="website address"><iframe>
+--> Not all the webpages will be loaded within an iframe of our webpage.
+--> We normally use this <iframe> for displaying youtube video on owr own webpage.
+
+How to get <iframe> tag for youtube video:
+---------------------------------------------------
+--> Go to 'yutube'.
+--> select any youtube videos.
+---> Click on 'share' button
+--> click on 'embed' -> select the player options.
+--> copy the full <iframe> tag and paste it in the html document.
+
+HTML Forms:
+------------------
+--> A HTML form is simply an area which contans various form fields such as 
+1. Text Box 2. Password Box 3. Radio Button 4. Select Box etc...
+--> When a user click on submit button then the entire form data will be collected by the browser and sends to the server for further processing.
+--> The HTML forms are divided into three categories:
+    1. HTML form elements 2. HTML form input types 3. HTML form attributes.
+1. HTML form elements:
+--------------------------------
+--> The HTML form elements are used to display various form fields on the web page.
+--> For each HTML form fields the root element is <form>.
+--> We should always write all the <form> tags inside the HTML tag called <form>.
+
+2. <input>, <label>:
+---------------------------
+--> <input> is used to display various input fields on the web page such as text box, password box, radio button, check Box etc.
+--> <label> is used to specify the label for a particular input field.
+	ex: <form>
+		<label for="username">User Name: </label>
+		<input type="text" id="username">
+	       </form>
+
+Note:
+-------
+--> Here the 'for' attribute of a label should always equal to the 'id' attribute of any 'input' field.
+--> This specifies the connection between the <label> and the input field.
+
+<select>,<option>:
+------------------------
+--> The select tag is used to display a select box on the webpage.
+--> In the select box each option is represented with an <option>.
+ex:
+	<form>
+	     <label for="lang">Select a language</label>
+	           <select id="lang">
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JS</option>
+	            </select>
+	  </form>
+<text area>:
+---------------
+--> The text area tag is used to displlay a comment box or a message box on the webpage.
+--> each text area contains two mandatory attributes rows, cols..here rows indicates the height of text area where columns indicates width of text area.
+ex:
+---
+	<form>
+	    <label for="msg">Your msg
+	    <textarea rows="5" cols="30 id="msg">
+	     </textarea>
+	</form>
+
+Datalist:
+------------
+--> This tag is introduced in the HTML5 version.
+--> This is the refined version of selectbox.
+--> In the datalist automatic options will be fetched based on the search query just like a google search box.
+
+HTML form input types:
+-------------------------------
+
+--> By using <input> tag we'll display various input fields on the webpage.
+--> We can display various input fields by using 'type' attribute.
+--> The 'type' attribute contains the following values:
+       type="text" --> display text box
+	password -> for password box
+	submit -> for a submit button
+	reset -> for reset button
+	radio -> for radio button
+	checkbox -> for a checkbox
+	button -> for a normal button, this we use for applyng event handling with javaScript.
+
+HTML5 input types:
+---------------------------
+type="color" -> for color selection
+            "date" -> for date selection
+            "datetime-local" -> for date & time selection
+            "email" -> for email validation
+            "month" -> for month selection
+            "number" -> for number validation
+            "range" -> for range selection
+            "search" -> for a search box
+            "time" -> for time selection
+            "url" -> for URL validation
+            "week" -> for week selection
+            "file" -> for file upload
+
+CSS COLORS:
+------------------
+ In CSS we can specify the colors in the following ways:
+RGB(red, green, blue):
+----------------------------
+Syntax: rgb(red,greeen,blue);
+
+Here the color values starts from 0 - 255.
+
+Ex: rgb(0,0,0) -> black color
+       rgb(255,255,255) -> white color
+
+HEX(Hexa decimal)
+-------------------------
+Syntax: #rrggbb;
+
+here the color values from 00 - FF
+Ex: #00000; -> black color
+       #FFFFF; -> white color
+
+HSL(Hue,Saturation,Lightness):
+-----------------------------------------
+Syntax: hsl(hue,saturation,lightness);
+
+here:
+          Hue  -> A degree on the color wheel.
+          (0:red., 120:green, 240: blue)
+Saturation -> A percentage value,
+0% means a shade of grey, and 100% is the full color.
+
+Lightness -> Also a percentage, 0% is black, 50% is neither light nor dark, 100% is white
+
+Example: hsl(120, 60%, 70%); -> some color
+
+RGBA(red, green,blue,alpha)
+------------------------------------
+syntax: rgba(red,green,blue,alpha);
+
+This is same as RGB with an extra 'Alpha' value
+Here Alpha indicates the transparent value.
+It's value is between 0 & 1.
+
+0 -> full transparent;
+1 -> full color
+
+ex: rgba(240,120,150,0.5);
+
+HSLA(Hue, saturation, Lightness, Alpha):
+----------------------------------------------------
+Syntax: hsla(hue, saturation, lightness,alpha);
+
+This is same as HSL with extra 'alpha'
+Here Alpha indicates (see above).
+ex: hsla(240,45%,50%,0.5);
+
+CSS backgrounds:
+-----------------------
+--> We can apply various background styles using CSS background properties.
+--> The CSS backgrounds contains the following properties
+1. background color: This is used to apply the background color for any HTML elements using textual color, RGB, HEX, RGBA, HSLA values.
+
+background-image: -> This is used to add the background image for any HTML element.
+Syntax: background-image: url("image address");
+----------------------------------------------------------------------------------
+background-repeat: -> This property is used whether to repeat the image in the background or not.
+This contains the following values,
+repeat-x -> to repeat the background image in X-axis.
+repeat-y -> to repeat the background image in Y-axis.
+no-repeat -> for single image display in the background.
+---------------------------------------------------------------------------
+background-attachment: -> this is used whether to fix the image in the background or scroll along with the scroll bar.
+
+This contains the following values,
+fix -> To fix the image in the background.
+scroll -> To scroll the image along with the scroll bar.
+------------------------------------------------------------------------------
+background-position: -> This is used to position the image in the specified position on the webpage.
+
+Ex: background-position: right top;
+--------------------------------------------------------------------------------
+ShortCut Property:
+-------------------------
+We can apply the background styles by using the shortcut property called 'background'.
+
+Syntax:
+                  background: color url repeat attachment postion; 
+CSS borders:
+---------------
+--> The CSS borders are used to apply various border sytles for any HTML elements.
+--> The CSS borders contains the following properties
+ border-width:
+--> This property is used to specify the width of the border in px, mm, cm, inch, em - 13px.
+border-style:
+-----------------
+--> This property is used to specify the style of the border .
+--> This property contains the following values.
+ex:
+---
+ solid => ________________
+ dotted => ........................
+ dashed => ---------------------
+double => ====================
+
+border-color:
+----------------
+--> This property is used to specify the color of a border using textual color, RGB, HEX, HSL, RGBA, HSLA.
+
+Shortcut property:
+-------------------------
+--> We can apply the border styles using the shortcut property called border.
+Syntax:
+-----------
+--> border: width style color;
+ex:
+---
+    border: 2px solid red;
+note:
+-------
+--> We can apply the border for individual sides of any HTML elements using the following properties:
+border-top --> 2px solid white;
+border-right
+border-bottom
+border-left
+--> We can apply the rounded corners by using the CSS property 
+border-radius
+ex: border-radius: 2px;
+
+How to google fonts to webpage:
+---------------------------------------------
+--> goto https://fonts.google.com/
+--> Select any font and click on '+' button/link
+--> Copy the <link> tag and ad to <head> section.
+--> Use the font with 'font-family' property.
+ for css colors visit www.coolers.co
+
+
+--> For CSS positions we use the property called 'position'.
+--> The CSS position property contains the following values.
+position: static:
+--------------------
+--> For each html element the default position is static.
+--> Any HTML element with static position will not move even though we provide 'top bottom right left' properties.
+position: relative 
+----------------------
+--> This is opposite to the static position.
+--> Any HTML element with this relative position then it moves as per the 'top bottom left right' properties.
+position: absolute
+----------------------
+--> This is same as relative position and moves on the web page using 'top right bottom left' properties.
+--> Any HTML element with absolute position it's movement is purely depend on its ancestor or parent element.
+
+position: fixed:
+------------------
+--> Any HTML element with the fixed position then it'll be always in the specified position even though we scroll the webpage.
+--> We normally use this property to fix the navigation bar in the top of the webpage.
+
+postion: sticky
+-------------------
+--> Any HTML element is defined with sticky position then it's movement is depend on the scroll bar.
+--> We use this sticky position to display some mandatory adds on the web page.
+CSS display property:
+--------------------------
+--> All the html elements will be displayed on the web page as per its default display nature.
+--> The HTML elements are divided into two categories as per their display nature as follows:
+1. Inline Elements
+2. Block level elements
+1.Inline Elements:
+-----------------------
+-> The HTML tags like <a>, <span>, <input>, <img> are comes under inline elements.
+--> For all the inline elements even though we write them line by line but they'll be displayed on the browser in a single line these are called as inline elements.
+2.Block level elements:
+-----------------------------
+--> The elements like <p>, <h1>, <div> are comes under block level elements.
+--> For all these elements even though we write them in a single line or line by line but as per their display nature they'll be displayed line by line on the browser.
+--> We can change the display nature of HTML elements using CSS 'display' property.
+--> The CSS display property contains the following properties:
+display: inline
+-----------------
+--> This property converts all the block level elements to inline.
+display: block
+------------------
+--> By using this property we can convert the inline elements to block level.
+display: inline-block
+------------------------
+--> By using this property we can display the HTML elements as a blocks in the same line.
+--> we normally use this for main navigation bar elements.
+display: none
+-----------------
+--> This property is used to hide any HTML element.
+
+CSS float property:
+------------------------
+--> The CSS float property is used to float the HTML elements either left or right.
+--> The CSS float property contains two values such as float: left; float: right;
+--> By using float: left property we can float the specified elements to left side.
+--> By using float: right property we can float the elements to the right.
+
+clear:both;
+-------------
+--> By using this property we can clear the float effect for the next elements.
