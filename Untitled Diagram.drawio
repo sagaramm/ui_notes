@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T07:07:17.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="fSPm6p30WDOrkdS7u0Gi" version="15.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T08:07:49.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="42qN0NaDCxbYHpKvoHPw" version="15.2.5" type="github">
   <diagram id="5LNyBfdkvAKp6E-nRTi8" name="Page-1">
-    <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="Lb6dJ8j5PXhM6-a8x6zd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rEZ0tzJYnLD1Po9i2CQ1-9" target="Lb6dJ8j5PXhM6-a8x6zd-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rEZ0tzJYnLD1Po9i2CQ1-9" target="U7rh4DtRHHrhT5KTV5ja-2">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rEZ0tzJYnLD1Po9i2CQ1-9" target="U7rh4DtRHHrhT5KTV5ja-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1070" y="990" as="targetPoint" />
             <Array as="points">
@@ -298,62 +298,59 @@
         <mxCell id="sbFbfco-7BqRwjDobAlr-20" value="users will be added to queues" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="660" y="1105" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7rh4DtRHHrhT5KTV5ja-2" target="U7rh4DtRHHrhT5KTV5ja-3">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U7rh4DtRHHrhT5KTV5ja-2" target="U7rh4DtRHHrhT5KTV5ja-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-2" value="pnr_createcreditbutton opens a modal box. user will enter certain details, creates a record in correction document." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-2" value="pnr_createcreditbutton opens a modal box. user will enter certain details, creates a record in correction document." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="900" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7rh4DtRHHrhT5KTV5ja-3" target="U7rh4DtRHHrhT5KTV5ja-5">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="U7rh4DtRHHrhT5KTV5ja-3" target="U7rh4DtRHHrhT5KTV5ja-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-3" value="user will select an external approver. For this there is a lightning component which fethces the approvers list from approver matrix object." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-3" value="user will select an external approver. For this there is a lightning component which fethces the approvers list from approver matrix object." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1435" y="915" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7rh4DtRHHrhT5KTV5ja-5" target="U7rh4DtRHHrhT5KTV5ja-11">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="U7rh4DtRHHrhT5KTV5ja-5" target="U7rh4DtRHHrhT5KTV5ja-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2050" y="1090" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-5" value="This is an internal approval. users will be added to&amp;nbsp;&lt;a style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 11.36px ; background-color: rgb(255 , 255 , 255)&quot;&gt;PNR_Manager_Approval queue. upon manager approval, this correction document will be sent for external approver.&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-5" value="This is an internal approval. users will be added to&amp;nbsp;&lt;a style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 11.36px ; background-color: rgb(255 , 255 , 255)&quot;&gt;PNR_Manager_Approval queue. upon manager approval, this correction document will be sent for external approver.&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1950" y="892.5" width="200" height="107.5" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-7" value="submit for approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-7" value="submit for approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1780" y="922.5" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-8" value="Lightning component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-8" value="Lightning component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1160" y="870" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-9" value="Lightning component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-9" value="Lightning component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1520" y="880" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-10" value="standard quick action" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-10" value="standard quick action" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1970" y="860" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7rh4DtRHHrhT5KTV5ja-11">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U7rh4DtRHHrhT5KTV5ja-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1790" y="1152.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-11" value="This will send an email to external approver. in this component html email format will be created, uses single email messaging to send email to external approvers." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-11" value="This will send an email to external approver. in this component html email format will be created, uses single email messaging to send email to external approvers." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1955" y="1105" width="190" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-13" value="&lt;a style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 11.36px ; text-align: left&quot;&gt;PNR_ExternalEmailIntegration&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-13" value="&lt;a style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 11.36px ; text-align: left&quot;&gt;PNR_ExternalEmailIntegration&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2060" y="1080" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7rh4DtRHHrhT5KTV5ja-15" target="U7rh4DtRHHrhT5KTV5ja-17">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="U7rh4DtRHHrhT5KTV5ja-15" target="U7rh4DtRHHrhT5KTV5ja-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-15" value="When the user approves or reject the correction document.&amp;nbsp;pnr_externalapproveremailhandler is called and will change the status value accordingly." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-15" value="When the user approves or reject the correction document.&amp;nbsp;pnr_externalapproveremailhandler is called and will change the status value accordingly." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1435" y="1111.25" width="350" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-17" value="PNR_CorrDocuTriggerHelper changes the status to closed&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U7rh4DtRHHrhT5KTV5ja-17" value="PNR_CorrDocuTriggerHelper changes the status to closed&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="1118.75" width="200" height="67.5" as="geometry" />
-        </mxCell>
-        <mxCell id="U7rh4DtRHHrhT5KTV5ja-18" value="PNR_CreateInvoiceLineItems component is responsbile for creation of invoice line items. this component needs to be optimized." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1290" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
